@@ -1,13 +1,12 @@
 import { Link, useRouterState } from "@tanstack/react-router";
 import { motion } from "framer-motion";
-import { LayoutGrid, Sparkles, FileText, Users, AlertCircle } from "lucide-react";
+import { LayoutGrid, FileText, Home } from "lucide-react";
 import { ThemeToggle } from "./ThemeToggle";
 
 const items = [
   { label: "Board", to: "/dashboard", icon: LayoutGrid },
-  { label: "Briefing", to: "/briefing", icon: Sparkles },
   { label: "Audit Log", to: "/audit", icon: FileText },
-  { label: "Team", to: "/team", icon: Users },
+  { label: "Landing", to: "/", icon: Home },
 ] as const;
 
 export function AppSidebar({ overdueCount = 0, activeMembers = 7 }: { overdueCount?: number; activeMembers?: number }) {
