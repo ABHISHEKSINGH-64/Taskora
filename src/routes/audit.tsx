@@ -7,7 +7,7 @@ import { mockAudit, type AuditEntry } from "@/lib/mock-data";
 export const Route = createFileRoute("/audit")({
   head: () => ({
     meta: [
-      { title: "Audit log · WorkFlow" },
+      { title: "Audit log · Taskora" },
       { name: "description", content: "Tamper-proof timeline of every change in the system." },
     ],
   }),

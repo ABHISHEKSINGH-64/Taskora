@@ -49,9 +49,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "WorkFlow — Verified accountability for every team" },
+      { title: "Taskora — Verified accountability for every team" },
       { name: "description", content: "AI-verified work logs, real-time kanban, and tamper-proof audit trail. Built for managers who refuse to fly blind." },
-      { property: "og:title", content: "WorkFlow — Verified accountability for every team" },
+      { property: "og:title", content: "Taskora — Verified accountability for every team" },
       { property: "og:description", content: "AI-verified work logs, real-time kanban, and a tamper-proof audit trail." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

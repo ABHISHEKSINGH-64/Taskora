@@ -10,7 +10,7 @@ import { StreamingText } from "@/components/StreamingText";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "WorkFlow — Verified accountability for every team" },
+      { title: "Taskora — Verified accountability for every team" },
       { name: "description", content: "AI-verified work logs, real-time kanban, and a tamper-proof audit trail. Built for managers who refuse to fly blind." },
     ],
   }),
@@ -68,7 +68,7 @@ function Hero() {
           </h1>
 
           <p className="mt-8 max-w-xl text-[17px] leading-[1.65] text-[var(--muted-foreground)]">
-            WorkFlow gives managers complete visibility and uses AI to verify every work log —
+            Taskora gives managers complete visibility and uses AI to verify every work log —
             so no one can bluff their way through another sprint.
           </p>
 
@@ -376,7 +376,7 @@ function Footer() {
   return (
     <footer className="border-t border-[var(--border)] py-10 px-6">
       <div className="mx-auto max-w-[1400px] flex flex-wrap items-center justify-between gap-4 label-meta text-[11px] text-[var(--muted-foreground)]">
-        <div>workflow · built for accountability · {new Date().getFullYear()}</div>
+        <div>taskora · built for accountability · {new Date().getFullYear()}</div>
         <div className="flex items-center gap-6">
           <span>react · supabase · claude</span>
           <span className="flex items-center gap-1.5"><Search size={11} /> docs</span>

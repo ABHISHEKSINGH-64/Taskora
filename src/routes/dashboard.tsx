@@ -13,7 +13,7 @@ import { mockTasks, type Status, type Task } from "@/lib/mock-data";
 export const Route = createFileRoute("/dashboard")({
   head: () => ({
     meta: [
-      { title: "Dashboard · WorkFlow" },
+      { title: "Dashboard · Taskora" },
       { name: "description", content: "Real-time kanban board with AI-verified work logs." },
     ],
   }),

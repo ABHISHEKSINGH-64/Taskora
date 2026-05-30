@@ -9,7 +9,7 @@ export function Navbar() {
           <svg width="22" height="22" viewBox="0 0 24 24" className="text-[var(--accent)]">
             <path d="M3 4 L7 20 L12 8 L17 20 L21 4" stroke="currentColor" strokeWidth="2.2" fill="none" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
-          <span className="font-display text-[18px] font-semibold tracking-tight">workflow</span>
+          <span className="font-display text-[18px] font-semibold tracking-tight">taskora</span>
           <span className="label-micro ml-1 text-[10px]">v1.0</span>
         </Link>
         <nav className="hidden md:flex items-center gap-8 label-meta text-[12px] text-[var(--muted-foreground)]">
