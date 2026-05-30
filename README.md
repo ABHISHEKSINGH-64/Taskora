@@ -9,7 +9,7 @@ Taskora is a command-center for modern teams. Managers see a live, AI-scored vie
 
 ## Live preview
 
-- **Preview:** https://id-preview--d97ab544-5e06-4a37-aaf1-189305a35974.lovable.app
+- **Preview:** https://workflow-verified-vision.lovable.app
 - **Routes:** `/` (landing) · `/login` (role switch) · `/dashboard` (Kanban + AI) · `/audit` (timeline)
 
 ---
