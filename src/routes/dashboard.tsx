@@ -7,6 +7,7 @@ import { AppSidebar } from "@/components/AppSidebar";
 import { TaskColumn } from "@/components/TaskColumn";
 import { BriefingDrawer } from "@/components/BriefingDrawer";
 import { WorkLogSheet } from "@/components/WorkLogSheet";
+import { DashboardScene } from "@/components/DashboardScene";
 import { mockTasks, type Status, type Task } from "@/lib/mock-data";
 
 export const Route = createFileRoute("/dashboard")({
@@ -44,7 +45,8 @@ function Dashboard() {
   };
 
   return (
-    <div className="min-h-screen bg-[var(--background)]">
+    <div className="min-h-screen bg-[var(--background)] relative">
+      <DashboardScene />
       <AppSidebar overdueCount={overdueCount} />
 
       <main className="ml-[240px] min-h-screen flex flex-col">
@@ -103,7 +105,13 @@ function Dashboard() {
       </main>
 
       <BriefingDrawer open={briefingOpen} onClose={() => setBriefingOpen(false)} />
-      <WorkLogSheet task={logTask} onClose={() => setLogTask(null)} />
+      <WorkLogSheet
+        task={logTask}
+        onClose={() => setLogTask(null)}
+        onScored={(id, score) =>
+          setTasks((prev) => prev.map((t) => (t.id === id ? { ...t, aiScore: score, logsCount: t.logsCount + 1 } : t)))
+        }
+      />
     </div>
   );
 }
