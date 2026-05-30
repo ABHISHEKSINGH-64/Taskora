@@ -55,6 +55,13 @@ Taskora is a command-center for modern teams. Managers see a live, AI-scored vie
 │  model: google/gemini-3-flash-preview        │
 └──────────────────────────────────────────────┘
 ```
+screenshots 
+<img width="1600" height="776" alt="WhatsApp Image 2026-05-30 at 2 25 06 PM" src="https://github.com/user-attachments/assets/b598e084-38a7-4d26-adab-04260c2947d2" />
+<img width="1600" height="762" alt="WhatsApp Image 2026-05-30 at 2 24 55 PM" src="https://github.com/user-attachments/assets/49eedfd2-53c9-4baa-bb12-72b110c7b861" />
+<img width="1600" height="780" alt="WhatsApp Image 2026-05-30 at 2 24 47 PM" src="https://github.com/user-attachments/assets/12706a40-2e53-43c1-8fd3-a8e5c1fc3c67" />
+
+
+
 
 **Routing.** File-based via `src/routes/`. `routeTree.gen.ts` is auto-generated.
 
