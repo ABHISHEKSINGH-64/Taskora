@@ -1,6 +1,6 @@
 import { Link, useRouterState } from "@tanstack/react-router";
 import { motion } from "framer-motion";
-import { LayoutGrid, FileText, Home } from "lucide-react";
+import { LayoutGrid, FileText, Home, AlertCircle } from "lucide-react";
 import { ThemeToggle } from "./ThemeToggle";
 
 const items = [
