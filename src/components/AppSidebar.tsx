@@ -33,7 +33,7 @@ export function AppSidebar({ overdueCount = 0, activeMembers = 7 }: { overdueCou
             transition={{ duration: 1.2, ease: "easeInOut" }}
           />
         </svg>
-        <span className="font-display text-[17px] font-semibold tracking-tight">workflow</span>
+        <span className="font-display text-[17px] font-semibold tracking-tight">taskora</span>
       </div>
 
       <div className="mx-4 my-2 px-4 py-4 rounded-xl bg-[var(--raised)] border border-[var(--border)]">

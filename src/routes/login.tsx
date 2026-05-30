@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 import { ThemeToggle } from "@/components/ThemeToggle";
 
 export const Route = createFileRoute("/login")({
-  head: () => ({ meta: [{ title: "Sign in · WorkFlow" }] }),
+  head: () => ({ meta: [{ title: "Sign in · Taskora" }] }),
   component: LoginPage,
 });
 
@@ -18,7 +18,7 @@ function LoginPage() {
           <svg width="22" height="22" viewBox="0 0 24 24" className="text-[var(--accent)]">
             <path d="M3 4 L7 20 L12 8 L17 20 L21 4" stroke="currentColor" strokeWidth="2.2" fill="none" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
-          <span className="font-display text-[18px] font-semibold">workflow</span>
+          <span className="font-display text-[18px] font-semibold">taskora</span>
         </Link>
         <div>
           <div className="label-micro mb-4">demo credentials</div>

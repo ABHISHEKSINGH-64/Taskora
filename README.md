@@ -1,9 +1,9 @@
-# WorkFlow
+# Taskora
 
 > AI-powered, role-based employee task & accountability platform.
 > Built for the hackathon — engineered to feel like a funded startup product.
 
-WorkFlow is a command-center for modern teams. Managers see a live, AI-scored view of what their team is actually doing. Employees log work in seconds and get instant, AI-validated confidence scores instead of nagging status meetings. Every action is captured in a tamper-proof audit trail.
+Taskora is a command-center for modern teams. Managers see a live, AI-scored view of what their team is actually doing. Employees log work in seconds and get instant, AI-validated confidence scores instead of nagging status meetings. Every action is captured in a tamper-proof audit trail.
 
 ---
 
